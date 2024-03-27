@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 
 // Your first API endpoint
 app.get("/api/hello", function (req, res) {
-  res.json({ greeting: req.session.venom });
+  res.json({ greeting: "greeting API" });
 });
 
 originalurl = [];
